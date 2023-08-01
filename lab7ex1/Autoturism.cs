@@ -11,8 +11,8 @@ namespace lab7ex1
     {
 
         private string marca;
-        private readonly string model;
-        private readonly int anDeFabricatie;
+        private string model;
+        private int anDeFabricatie;
         private Usi[] usi;
         private Motor motor;
 
@@ -20,27 +20,18 @@ namespace lab7ex1
 
         public string Marca
         {
-            get
+           get
             {
-                return marca;
+                return marca="Dacia";
             }
-
-            set
-            {
-                
-                marca = value;
-            }
+          
         }
-
-       
-
-
 
         public string Model
         {
             get
             {
-                return model;
+              return model="Logan";
             }
         }
 
@@ -48,7 +39,7 @@ namespace lab7ex1
         {
             get
             {
-                return anDeFabricatie;
+                return anDeFabricatie=2020;
             }
          
         }

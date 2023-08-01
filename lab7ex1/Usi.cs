@@ -8,13 +8,13 @@ namespace lab7ex1
 {
     internal class Usi
     {
-        private readonly int numarUsi;
+        private int numarUsi;
 
         public int NumarUsi
         { 
-            get
+           get
             {
-                return numarUsi;
+               return numarUsi=4;
             }
         
         }

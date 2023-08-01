@@ -10,20 +10,17 @@ namespace lab7ex1
     {
         private int capacitateCilindrica;
         private int putere;
-        private int tipCombustibil;
+        private string tipCombustibil;
 
 
 
 
         public int CapacitateCilindrica
         {
-            get
+            
+           get
             {
-                return capacitateCilindrica;
-            }
-            set
-            {
-                capacitateCilindrica = value;
+               return capacitateCilindrica=1289;
             }
         }
 
@@ -32,23 +29,18 @@ namespace lab7ex1
         {
             get
             {
-                return putere;
+               return putere=100;
             }
         }
 
 
-        public int TipCombustibil
+        public string TipCombustibil
         {
-            get
+
+          get
             {
-                return tipCombustibil;
+               return tipCombustibil = "benzina";
             }
-        }
-
-         public int SetCapacCilin(int capacitateCilindrica)
-        {
-            // this.CapacitateCilindrica= 1200;
-            return capacitateCilindrica;
         }
 
     }
