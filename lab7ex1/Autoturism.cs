@@ -15,7 +15,7 @@ namespace lab7ex1
         private int anDeFabricatie;
         private Usi[] usi;
         private Motor motor;
-
+        private int nrUsi;
 
 
         public string Marca
@@ -44,15 +44,13 @@ namespace lab7ex1
          
         }
 
-
-
-
-
-        //public string GetDescriptionAuto()
-        //{
-
-        //    return $"Autoturismul este  marca{marca}, este fabricat in {anDeFabricatie}, are capac.cilindrica de {CapacitateCilin}, functioneaza pe {motor.GetTipCombustibil}, are puterea motorului de {motor.GetPutere}CP, si are {usi} usi.";
-        //}
+        public int NrUsi
+        {
+            get
+            {
+                return nrUsi = 4;
+            }
+        }
 
     }
 }

@@ -29,10 +29,10 @@ namespace MyApp
 
                          Motor motor = new Motor();
 
-                         Usi numarUsi = new Usi();
+                       
 
             Console.WriteLine($"Autoturismul este marca {auto.Marca}, model {auto.Model}, anul de fabricatie {auto.AnDeFabricatie}, capacitate cilindrica {motor.CapacitateCilindrica},tip combustibil {motor.TipCombustibil}," +
-                $"cu puterea de {motor.Putere}CP si {numarUsi.NumarUsi} usi.");
+                $"cu puterea de {motor.Putere}CP si {auto.NrUsi} usi.");
                          
 
                        
